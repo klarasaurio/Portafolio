@@ -1,0 +1,267 @@
+<html> 
+ <head>
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio</title>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto|Roboto+Mono:100,300,400');
+
+// font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Roboto Mono', monospace;
+// font-family: 'Roboto', sans-serif;
+
+body {
+  background: #0E0E0E;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed; /* Fija el fondo al desplazarse */
+ height: 100vh; /* Ajusta esto según tus necesidades */
+}
+
+.wrapper {
+  margin: 20px auto;
+  width: 900px;
+  position: relative;
+}
+
+.cabecera {
+  background-color: #2196F3;
+  background-size: cover;
+  background-position: center;
+  width: 900px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 420px;
+  cursor: crosshair;
+}
+
+
+.cabecera:hover .fondo {
+  width: 390px;
+  height: 420px;
+}
+
+.cabecera .titulo {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #FFF;
+}
+
+.cabecera .titulo span {
+  color: #2196F3;
+  display: block;
+}
+
+.cabecera .menu {
+  position: relative;
+  border-bottom: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+}
+
+.cabecera .normativa {
+  background: #FFF;
+  color: #2196F3;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 8px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+}
+
+.cabecera .staff {
+ display: flex;
+  justify-content: right;
+  height: 100%;
+  padding: 20px;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.abecera .staff span {
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FFF;
+  text-decoration: none;
+}
+
+.cabecera .principal {
+  display: grid;
+  grid-template-columns: 60px 390px;
+}
+
+.cabecera .frase {
+  position: relative;
+}
+
+.cabecera .texto {
+  width: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 200px;
+  left: -145px;
+}
+
+.cabecera .fondo {
+  width: 330px;
+  height: 360px;
+  position: absolute;
+  z-index: 150;
+  bottom: 0;
+  left: 60px;
+  transition: all ease .45s;
+}
+
+.cabecera .datos {
+  /*background: #FFF;*/
+  width: 250px;
+  height: 280px;
+  /*position: relative;*/
+  z-index: 200;
+  top: 60px;
+  padding: 40px;
+}
+
+.cabecera .titulo {
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #2196F3;
+  letter-spacing: 1px;
+}
+
+.cabecera .titulo span {
+  font-size: 10px;
+  display: block;
+  color: #000;
+  line-height: 7px;
+}
+
+.cabecera .botones {
+  width: 250px;
+  display: grid;
+  grid-gap: 5px;
+  padding: 0px 0 20px;
+}
+
+.cabecera .botones {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  color: #9E9E9E;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+  word-spacing: 1px;
+}
+
+.cabecera .activa {
+  color: #000;
+
+}
+
+.cabecera .extra {
+  border-left: 1px solid #FFF;
+}
+.img1 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.info{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  margin-top: 35px;
+  
+}
+.cabecera .botones:hover {
+    color: #5002ec;
+  
+}
+.staff:hover {
+  color: #5002ec;
+}
+
+
+
+</style>
+
+<script>
+
+
+</script>
+
+<Body>
+    <div class="wrapper">
+        <div class="cabecera">
+          <div class="titulo">
+          
+          <span>Likuet Studio</span>
+          </div>
+          <div class="menu">
+            <a href="#" class="staff">
+              <span>contacto</span>
+            </a>
+            <a href="#" class="normativa">
+              Diseño gráfico
+            </a>
+          </div>
+          <div class="principal">
+            <div class="frase">
+              <div class="texto">
+                Portafolio
+              </div>
+            </div>
+            <div class="contenido">
+              <div class="fondo">
+                <img src="img/Damned.png" width="86%">
+              </div>
+              <div class="datos">
+        
+                <div class="botones">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra">
+    
+            <div style="border: 0px dotted rgb(255, 255, 255);" class="info">
+              <h3>DAMMNED</h3>
+              <p>
+                Este cartel tal tal tal representa x <p>
+            <h3>HERRAMIENTAS</h3>
+            <img src="img/PSLOGO.png" width="50px" style="float: left; margin-right: 30px;" class="img1">
+              
+            </div>
+          
+            
+          </div>
+        </div>
+      </div>
+</Body>
+
+ </head>
