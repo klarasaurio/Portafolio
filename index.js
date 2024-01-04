@@ -9,7 +9,7 @@ closeModal.addEventListener("click", function (){
 
 
 async function readData() {
-    let data = await fetch("./data.json");
+    let data = await fetch("https://raw.githubusercontent.com/klarasaurio/Portafolio/main/data.json");
     data = await data.json();
     return data;
 }
