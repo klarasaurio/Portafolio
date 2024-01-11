@@ -163,7 +163,7 @@ body {
 .titulo {
   padding: 20px;
   font-family: 'Roboto', sans-serif;
-  font-size: 10px;
+  font-size: 30px;
   text-transform: uppercase;
   color: #FFF;
   letter-spacing: 1px;
@@ -188,7 +188,7 @@ body {
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
-  font-size: 8px;
+  font-size: 15px;
   letter-spacing: 1px;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -204,7 +204,7 @@ body {
   padding: 20px;
   text-align: right;
   font-family: 'Roboto', sans-serif;
-  font-size: 8px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #FFF;
   letter-spacing: 1px;
@@ -249,13 +249,13 @@ body {
  .titulo {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 40px;
   color: #ffffff;
   letter-spacing: 1px;
 }
 
  .titulo span {
-  font-size: 10px;
+  font-size: 20px;
   display: block;
   color: #000;
   line-height: 7px;
@@ -290,7 +290,7 @@ body {
 }
 .info{
   font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 35px;
   
 }
@@ -299,6 +299,29 @@ body {
 }
 .staff:hover {
   color: #5002ec;
+}
+.contacto {
+  margin-top: -302px; 
+  padding: 151px;
+  background-color: #FFF;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.informacion-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.informacion-contacto p {
+  margin: 0;
+  font-size: 12px;
 }
 
 /*  Mediaquery */
