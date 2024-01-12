@@ -196,7 +196,7 @@ async function readData() {
     
         }
         
-    ]
+    ])"
     data = await data.json();
     return data;
 }
