@@ -9,7 +9,7 @@ closeModal.addEventListener("click", function (){
 
 
 async function readData() {
-    let data = await fetch[
+    let data = [
         {
             "id": 0,
             "nombre": "Bad idea",
@@ -194,11 +194,9 @@ async function readData() {
             "gird-row": "1",
             "col-span": "1"
     
-        }
-        
+        }        
     ]
 
-    data = await data.json();
     return data;
 }
 
